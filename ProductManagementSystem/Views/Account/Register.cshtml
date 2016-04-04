@@ -1,0 +1,118 @@
+﻿@using ProductManagementSystemData
+
+@model ProductManagementSystemData.RegisterViewModel
+
+@{
+    ViewBag.Title = "Register";
+    string ApiUrl = System.Configuration.ConfigurationManager.AppSettings["ApiBaseUrl"];
+}
+
+<script>
+    $(document).ready(function () {
+        
+    });
+
+    function RegisterUser() {
+
+        
+        var cpvalidation = false;
+
+        var userDetails = {
+            Address: $("input[name='Address']").val(),
+            ContactNo: $("input[name='ContactNo']").val(),
+            DOB: $("input[name='DOB']").val(),
+            EmailId: $("input[name='EmailId']").val(),
+            FirstName: $("input[name='FirstName']").val(),
+            LastName: $("input[name='LastName']").val(),
+            Password: $("input[name='Password']").val()
+        }
+
+        if (userDetails.Password != $("input[name='ConfirmPassword']").val()) {
+            $("#cpvalidation").show();
+            cpvalidation = false;
+        }
+        else {
+            $("#cpvalidation").hide();
+            cpvalidation = true;
+        }
+
+        if (cpvalidation === true) {
+            $.ajax({
+                url: '@ApiUrl' + "/RegisterUser",
+                type: 'POST',
+                data: userDetails,
+                success: function (response) {
+                    alert("inserted successfully");
+                },
+                error: function (response) {
+                    alert("There was an error with the request" + response);
+                }
+            });
+        }
+    }
+</script>
+
+
+<div class="large-offset-4 large-4 columns form_box">
+    <h4 class="heading"><span>Create a new account.</span></h4>
+    <div class="large-12 columns">
+        <form id="resisterUser" onsubmit="return false" data-abide>            
+            
+            <div class="large-12 columns">
+                <label for="fname" style="text-align: left;">First Name</label>
+                @Html.TextBoxFor(m => m.FirstName, new { id = "FirstName", @required = "required", @tabindex = "1" })
+                <small class="error">Valid First Name Required</small>
+            </div>
+            
+            <div class="large-12 columns">
+                <label for="Dob" style="text-align: left;">Last Name</label>
+                @Html.TextBoxFor(m => m.LastName, new { id = "LastName", @required = "required", @tabindex = "1" })
+                <small class="error">Valid Last Name Required</small>
+            </div>
+                    
+            <div class="large-12 columns">
+                <label for="Email" style="text-align: left;">Email Id</label>
+                @Html.TextBoxFor(m => m.EmailId, new { id = "EmailId", @required = "required", @tabindex = "1", type = "email" })
+                <small class="error">Valid Email Required</small>
+            </div>
+            
+            <div class="large-12 columns">
+                <label for="Dob" style="text-align: left;">Date of Birth</label>
+                @Html.TextBoxFor(m => m.DOB, new { id = "DOB", @required = "required", @tabindex = "1" })
+                <small class="error">Valid Date of Birth Required</small>
+            </div>
+            
+            <div class="large-12 columns">
+                <label for="Address" style="text-align: left;">Address</label>
+                @Html.TextBoxFor(m => m.Address, new { id = "Address", @required = "required", @tabindex = "1", })
+                <small class="error">Valid Address Required</small>
+            </div>
+            
+            <div class="large-12 columns">
+                <label for="contact" style="text-align: left;">Contact Number</label>
+                @Html.TextBoxFor(m => m.ContactNo, new { id = "ContactNo", @required = "required", @tabindex = "1", })
+                <small class="error">Valid Contact Number Required</small>
+            </div>                        
+            
+            <div class="large-12 columns">
+                <label for="password" style="text-align: left;">Password</label>
+                @Html.PasswordFor(m => m.Password, new { id = "password", @required = "required", @tabindex = "2", pattern = "alpha" })
+                <small class="error">Valid Password Required</small>
+            </div>
+                    
+            <div class="large-12 columns">
+                <label for="password" style="text-align: left;">Confirm Password</label>
+                @Html.PasswordFor(m => m.ConfirmPassword, new { id = "ConfirmPassword", @required = "required", @tabindex = "2", @pattern = "alpha" })
+                <small class="error">Valid Password Required</small>
+                <small class="other_error" id="cpvalidation" style="display:none;">Confirm Password must match password.</small>
+            </div>
+
+            <div class="large-12 columns">
+                <input type="submit" id="registerlink" onclick="RegisterUser()" class="button small radius right" tabindex="3" value="Register" /><br />
+            </div>
+            <div class="large-12 columns">
+                &nbsp;
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,851 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3951ABCE-D5EC-4E05-A773-148472F2B9A3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProductManagementSystemData</RootNamespace>
+    <AssemblyName>ProductManagementSystemData</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Http.Common">
+      <HintPath>..\packages\System.Web.Http.Common.4.0.20126.16343\lib\net40\System.Web.Http.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountViewModel.cs" />
+    <Compile Include="aspnet_Applications.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Membership.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Paths.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_PersonalizationAllUsers.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_PersonalizationPerUser.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Profile.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Roles.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_SchemaVersions.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_Users.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="aspnet_WebEvent_Events.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Brand1.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteStock.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="myTransaction.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PartyBrandDisc.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PMSEntities.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSEntities.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PMSEntities.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PMSEntities.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSEntities.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReferenceTypeMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblAccSelection.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblAddress.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblAddressType.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblBrandMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCityMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCompanyGroup.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCompanyMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblContraVoucher.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblContraVoucherLedger.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblcountrystate_tbl.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblcountry_tbl.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCrditNoteToLedger.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCrditNoteToLedgerItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCreditItemsToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCreditNote.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCreditNoteItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCreditNoteItemDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCreditNoteItemsToTax.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCreditNoteLatest.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCreditNoteToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCreditNoteToExtraCharge.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCreditNoteToTax.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCustomerBrandDisc.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TblCustomerGroup.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCustomerMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDebitNote.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDebitNoteItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDebitNoteItemDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDebitNoteItemsToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDebitNoteItemsToTax.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDebitNoteToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDebitNoteToLedger.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDebitNoteToLedgerItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDebitNoteToTax.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDefaultGroup.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDefaultLedger.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDiscountTypeMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDurationIn.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblForgetPasswordQuestion.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblFPCustomerMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblFPInvoiceStatu.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblGiftVoucherExtensionMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblGiftVoucherIssue.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblGiftVoucherMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblGodownMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblGodownToUser.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TblGroupMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblInventoryVoucher.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblInvoiceTypeMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblInword.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblInwordItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblInwordItemToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblInwordItemToTAX.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblInwordToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblInwordToPORef.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblInwordToTAX.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblItemCategoryMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblItemGridColumnPermission.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblItemListForSyncronize.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblItemMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblItemMaster22Nov2014Backup.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblItemMasterBackup.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblItemRunningStock.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblItemToOtherExpens.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblItemToSubItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblItemToTAXGroupSateWise.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblItemToTaxProfile.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblItemWiseUnitConversion.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblJournalVoucher.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblJournalVoucherItemsToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblJournalVoucherItemsToTax.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblJournalVoucherToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblJournalVoucherToLedgerItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblJournalVoucherToTax.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblJVToLedger.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblLog.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblLogDataType.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblModuleMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblNature.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblNegativeStockNotification.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOnlineSalesInvoice.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOnlineSKUMapping.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOpeningStock.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOutword.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOutwordItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOutwordItemst6thfloor.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOutwordItemToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOutwordItemToTAX.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOutwordToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOutwordToTAX.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOutword_6THFloorremove.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPartyGroupMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPartyToGroup.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblParty_Master.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPaymentToRefence.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPaymentVoucher.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPaymentVoucherToLedger.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPayment_Type_Master.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPhone.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProductionConsunption.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseInvoice.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseInvoice8112014.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseInvoiceItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseInvoiceItems8112014.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseInvoiceItemToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseInvoiceItemToTax.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseInvoiceToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseInvoiceToExtraCharge.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseInvoiceToInword.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseInvoiceToLedger.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseInvoiceToPoNo.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseInvoiceToReference.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseInvoiceToTax.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseOrder.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseOrderDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseOrderItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseOrderItemTax.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseOrderItemToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseOrderToTax.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblQuotation.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblQuotationItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblQuotItemsToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblQuotItemsToTAX.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblQuotToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblQuotToTAX.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRackMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblReceiptToRefence.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRecieptVoucher.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRecieptVoucherToLeger.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRejectionIn.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRejectionInItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRejectionInItemToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRejectionInItemToTAX.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRejectionOut.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRejectionOutItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRejectionOutItemToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRejectionOutItemToTAX.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblReportColumn.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRequestMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRequestToExpense.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblRequestToItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesInvoice.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesInvoiceItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesInvoiceItemToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesInvoiceItemToTax.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesInvoicePayment.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesInvoiceToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesInvoicetoExtraCharge.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesInvoiceToLedger.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesInvoiceToReference.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesInvoiceToTax.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesInvoieToRedemption.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesOrder.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesOrderItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesOrderItemToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesOrderItemToTAX.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesOrderToDiscount.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalesOrderToTax.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSalutation_tbl.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSectionMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblStateMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblstatesuburb_Tbl.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblStatusMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblStockCountingCycleMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblStockCountingTypeMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblStockCountingVoucherMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblStockCountingVoucherToItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblStockJournal.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblStockJournalToExpense.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblStockJournalToItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblStockJournalToPartyToItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblStoreMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTAXGroupMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTaxGroupToStateWiseTaxProfile.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTaxProfileCategoryMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTaxProfileDetail.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTaxProfileMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTaxTypeMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTransportComanyMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTransportTypeMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblUnitConversion.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblUnitMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblUser.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblUserMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblUserPermission.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblUserToCompany.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblUserTypeMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblWorkOrder.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblWorkOrder_Items.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblWorkOrder_OtherCharges.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_UpdateItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_UpdateLog.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_UpdateTransactionType.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_GiftVoucherDetails.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_GiftVoucherTermsandConditions.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_TermsMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempCheck.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempClose.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempCreditNote.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempCreditnote311014.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempCRNote.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TEMPD1.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempDelete9.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempFinalStock.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempItemList.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempItemNegative.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempLocationWiseTransaction.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempM1.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempM6Floor.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempMerge1.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempMergeStock1.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempPurchaseIN.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempPurchaseInvoice_N.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempSalesInvoice.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempSalesInvoice3112014.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempStock.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempStock1.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempStock3.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tempStock4.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempStock5.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempStock6.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tempStock7.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempStockCI.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempStockCountingItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempStockCountingVoucher.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempStockCountingVoucherMaster.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempStockj.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TEMPStockJVItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempStockOrg.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempStockV.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TemptblStockCountingVoucherToItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempTransaction31Mar.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempTransactionItem.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VatUpdateFromToycra.cs">
+      <DependentUpon>PMSEntities.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <EntityDeploy Include="PMSEntities.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PMSEntities.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="PMSEntities.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PMSEntities.edmx</DependentUpon>
+      <LastGenOutput>PMSEntities.Context.cs</LastGenOutput>
+    </None>
+    <None Include="PMSEntities.edmx.diagram">
+      <DependentUpon>PMSEntities.edmx</DependentUpon>
+    </None>
+    <None Include="PMSEntities.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PMSEntities.edmx</DependentUpon>
+      <LastGenOutput>PMSEntities.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

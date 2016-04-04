@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="html_blue">
+
+@* Update to make fonts similar. Created by:Shruti Bhatnagar. Date:19-02-2014*@
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="~/Content/foundation/normalize.css" rel="stylesheet" />
+    <link href="~/Content/foundation/foundation.css" rel="stylesheet" />    
+     <link href="~/Content/Site.css" rel="stylesheet" />  
+     <link href="~/Content/style.css" rel="stylesheet" />  
+    <meta name="viewport" content="width=device-width" />    
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+   
+</head>
+
+<body class="blue_background">
+    <header class="topbar_row">
+        @Html.Partial("Header")               
+    </header>
+    <div class="row content_row">
+       
+       
+            @RenderBody()
+       
+    </div>
+    <script src="~/Scripts/foundation/foundation.min.js"></script>
+    <script src="~/Scripts/foundation/foundation.topbar.js"></script>
+    <script src="~/Scripts/megadrop.js"></script>
+    
+<script>
+    $(document).foundation();    
+
+    // below does the "Programs" info switch
+    //$('.is-hover a').on('mouseover', function () {
+    //    var idx = $(this).parent().index() + 2;
+    //    $('.info:nth-child(' + idx + ')').addClass('info-visible');
+    //    $('.info:nth-child(' + idx + ')').siblings().removeClass('info-visible');
+    //});
+
+    //$('.dropdown').on('mouseout', function () {
+    //    $('.info:nth-child(1)').addClass('info-visible').siblings().removeClass('info-visible');
+    //});
+</script>
+</body>
+
+</html>
+
+
+
+

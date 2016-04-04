@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cb74420fc1de41e08d5dfc8c5ce776db" Name="Diagram1" ZoomLevel="10">
+        <EntityTypeShape EntityType="PMSModel.aspnet_Applications" Width="1.5" PointX="14.75" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.aspnet_Membership" Width="1.5" PointX="20" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.aspnet_Paths" Width="1.5" PointX="17" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.aspnet_PersonalizationAllUsers" Width="1.5" PointX="19.25" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.aspnet_PersonalizationPerUser" Width="1.5" PointX="19.25" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.aspnet_Profile" Width="1.5" PointX="24.5" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.aspnet_Roles" Width="1.5" PointX="17" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.aspnet_SchemaVersions" Width="1.5" PointX="0.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.aspnet_Users" Width="1.5" PointX="22.25" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.aspnet_WebEvent_Events" Width="1.5" PointX="21.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.Brand1" Width="1.5" PointX="23.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.DeleteStock" Width="1.5" PointX="31.75" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.myTransaction" Width="1.5" PointX="2.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.PartyBrandDisc" Width="1.5" PointX="16.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.ReferenceTypeMaster" Width="1.5" PointX="13.75" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tb_GiftVoucherDetails" Width="1.5" PointX="16.75" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tb_GiftVoucherTermsandConditions" Width="1.5" PointX="14" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tb_TermsMaster" Width="1.5" PointX="11.75" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tbl_UpdateItem" Width="1.5" PointX="18.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tbl_UpdateLog" Width="1.5" PointX="25.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tbl_UpdateTransactionType" Width="1.5" PointX="21.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblAccSelection" Width="1.5" PointX="5.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblAddress" Width="1.5" PointX="15.75" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblAddressType" Width="1.5" PointX="2.75" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblBrandMaster" Width="1.5" PointX="28.75" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCityMaster" Width="1.5" PointX="35.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCompanyGroup" Width="1.5" PointX="0.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCompanyMaster" Width="1.5" PointX="37.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblContraVoucher" Width="1.5" PointX="3" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblContraVoucherLedger" Width="1.5" PointX="5.25" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblcountry_tbl" Width="1.5" PointX="38.75" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblcountrystate_tbl" Width="1.5" PointX="36.75" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCrditNoteToLedger" Width="1.5" PointX="5.25" PointY="37.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCrditNoteToLedgerItem" Width="1.5" PointX="7.5" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCreditItemsToDiscount" Width="1.5" PointX="9.75" PointY="32.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCreditNote" Width="1.5" PointX="12.25" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCreditNoteItemDiscount" Width="1.5" PointX="3" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCreditNoteItem" Width="1.5" PointX="0.75" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCreditNoteItemsToTax" Width="1.5" PointX="9.75" PointY="35.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCreditNoteLatest" Width="1.5" PointX="38.75" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCreditNoteToDiscount" Width="1.5" PointX="7.5" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCreditNoteToExtraCharge" Width="1.5" PointX="38.75" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCreditNoteToTax" Width="1.5" PointX="7.5" PointY="42.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCustomerBrandDisc" Width="1.5" PointX="39.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TblCustomerGroup" Width="1.5" PointX="38.75" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblCustomerMaster" Width="1.5" PointX="10" PointY="45.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblDebitNote" Width="1.5" PointX="3" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblDebitNoteItem" Width="1.5" PointX="40.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblDebitNoteItemDiscount" Width="1.5" PointX="24.75" PointY="46.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblDebitNoteItemsToDiscount" Width="1.5" PointX="9.75" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblDebitNoteItemsToTax" Width="1.5" PointX="9.75" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblDebitNoteToDiscount" Width="1.5" PointX="7.5" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblDebitNoteToLedger" Width="1.5" PointX="5.25" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblDebitNoteToLedgerItem" Width="1.5" PointX="7.5" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblDebitNoteToTax" Width="1.5" PointX="7.5" PointY="46.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblDefaultGroup" Width="1.5" PointX="40.75" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblDefaultLedger" Width="1.5" PointX="40.75" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblDiscountTypeMaster" Width="1.5" PointX="19.25" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblDurationIn" Width="1.5" PointX="4.75" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblForgetPasswordQuestion" Width="1.5" PointX="40.75" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblFPCustomerMaster" Width="1.5" PointX="33.75" PointY="46.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblFPInvoiceStatu" Width="1.5" PointX="41.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblGiftVoucherExtensionMaster" Width="1.5" PointX="18.75" PointY="47.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblGiftVoucherIssue" Width="1.5" PointX="35.75" PointY="47.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblGiftVoucherMaster" Width="1.5" PointX="37.75" PointY="47.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblGodownMaster" Width="1.5" PointX="39.75" PointY="47.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblGodownToUser" Width="1.5" PointX="41.75" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TblGroupMaster" Width="1.5" PointX="40.75" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblInventoryVoucher" Width="1.5" PointX="41.75" PointY="47.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblInvoiceTypeMaster" Width="1.5" PointX="42.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblInword" Width="1.5" PointX="23.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblInwordItem" Width="1.5" PointX="26" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblInwordItemToDiscount" Width="1.5" PointX="28.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblInwordItemToTAX" Width="1.5" PointX="28.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblInwordToDiscount" Width="1.5" PointX="26" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblInwordToPORef" Width="1.5" PointX="26" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblInwordToTAX" Width="1.5" PointX="26" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblItemCategoryMaster" Width="1.5" PointX="11.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblItemGridColumnPermission" Width="1.5" PointX="42.75" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblItemListForSyncronize" Width="1.5" PointX="42.75" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblItemMaster" Width="1.5" PointX="14" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblItemMaster22Nov2014Backup" Width="1.5" PointX="42.75" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblItemMasterBackup" Width="1.5" PointX="20.75" PointY="49.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblItemRunningStock" Width="1.5" PointX="43.75" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblItemToOtherExpens" Width="1.5" PointX="16.25" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblItemToSubItem" Width="1.5" PointX="16.25" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblItemToTAXGroupSateWise" Width="1.5" PointX="42.75" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblItemToTaxProfile" Width="1.5" PointX="43.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblItemWiseUnitConversion" Width="1.5" PointX="16.25" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblJournalVoucher" Width="1.5" PointX="33.75" PointY="38.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblJournalVoucherItemsToDiscount" Width="1.5" PointX="40.5" PointY="40.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblJournalVoucherItemsToTax" Width="1.5" PointX="40.5" PointY="43.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblJournalVoucherToDiscount" Width="1.5" PointX="36" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblJournalVoucherToLedgerItem" Width="1.5" PointX="38.25" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblJournalVoucherToTax" Width="1.5" PointX="36" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblJVToLedger" Width="1.5" PointX="36" PointY="41.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblLog" Width="1.5" PointX="22.75" PointY="49.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblLogDataType" Width="1.5" PointX="24.75" PointY="49.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblModuleMaster" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblNature" Width="1.5" PointX="26.75" PointY="49.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblNegativeStockNotification" Width="1.5" PointX="28.75" PointY="49.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblOnlineSalesInvoice" Width="1.5" PointX="43.75" PointY="47.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblOnlineSKUMapping" Width="1.5" PointX="44.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblOpeningStock" Width="1.5" PointX="44.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblOutword" Width="1.5" PointX="31.75" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblOutword_6THFloorremove" Width="1.5" PointX="44.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblOutwordItem" Width="1.5" PointX="34" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblOutwordItemst6thfloor" Width="1.5" PointX="15.75" PointY="50.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblOutwordItemToDiscount" Width="1.5" PointX="36.25" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblOutwordItemToTAX" Width="1.5" PointX="36.25" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblOutwordToDiscount" Width="1.5" PointX="34" PointY="27.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblOutwordToTAX" Width="1.5" PointX="34" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblParty_Master" Width="1.5" PointX="3" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPartyGroupMaster" Width="1.5" PointX="17.75" PointY="50.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPartyToGroup" Width="1.5" PointX="44.75" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPayment_Type_Master" Width="1.5" PointX="44.75" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPaymentToRefence" Width="1.5" PointX="8.25" PointY="63.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPaymentVoucher" Width="1.5" PointX="6" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPaymentVoucherToLedger" Width="1.5" PointX="8.25" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPhone" Width="1.5" PointX="44.75" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblProductionConsunption" Width="1.5" PointX="44.75" PointY="42.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseInvoice" Width="1.5" PointX="3" PointY="45.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseInvoice8112014" Width="1.5" PointX="30.75" PointY="51.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseInvoiceItem" Width="1.5" PointX="5.25" PointY="56.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseInvoiceItems8112014" Width="1.5" PointX="45.75" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseInvoiceItemToDiscount" Width="1.5" PointX="7.5" PointY="55.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseInvoiceItemToTax" Width="1.5" PointX="7.5" PointY="58.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseInvoiceToDiscount" Width="1.5" PointX="5.25" PointY="49.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseInvoiceToExtraCharge" Width="1.5" PointX="45.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseInvoiceToInword" Width="1.5" PointX="5.25" PointY="52.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseInvoiceToLedger" Width="1.5" PointX="5.25" PointY="41.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseInvoiceToPoNo" Width="1.5" PointX="5.25" PointY="62.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseInvoiceToReference" Width="1.5" PointX="32.75" PointY="51.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseInvoiceToTax" Width="1.5" PointX="5.25" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseOrder" Width="1.5" PointX="30.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseOrderDiscount" Width="1.5" PointX="33" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseOrderItem" Width="1.5" PointX="33" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseOrderItemTax" Width="1.5" PointX="35.25" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseOrderItemToDiscount" Width="1.5" PointX="35.25" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblPurchaseOrderToTax" Width="1.5" PointX="33" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblQuotation" Width="1.5" PointX="26.75" PointY="39.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblQuotationItem" Width="1.5" PointX="29" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblQuotItemsToDiscount" Width="1.5" PointX="31.25" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblQuotItemsToTAX" Width="1.5" PointX="31.25" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblQuotToDiscount" Width="1.5" PointX="29" PointY="42.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblQuotToTAX" Width="1.5" PointX="29" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblRackMaster" Width="1.5" PointX="39" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblReceiptToRefence" Width="1.5" PointX="10.25" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblRecieptVoucher" Width="1.5" PointX="8" PointY="50.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblRecieptVoucherToLeger" Width="1.5" PointX="10.25" PointY="42" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblRejectionIn" Width="1.5" PointX="13.75" PointY="42.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblRejectionInItem" Width="1.5" PointX="16" PointY="44.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblRejectionInItemToDiscount" Width="1.5" PointX="45.75" PointY="45.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblRejectionInItemToTAX" Width="1.5" PointX="45.75" PointY="48.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblRejectionOut" Width="1.5" PointX="37.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblRejectionOutItem" Width="1.5" PointX="40" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblRejectionOutItemToDiscount" Width="1.5" PointX="42.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblRejectionOutItemToTAX" Width="1.5" PointX="46.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblReportColumn" Width="1.5" PointX="46.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblRequestMaster" Width="1.5" PointX="46.75" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblRequestToExpense" Width="1.5" PointX="46.75" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblRequestToItem" Width="1.5" PointX="46.75" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesInvoice" Width="1.5" PointX="9" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesInvoiceItem" Width="1.5" PointX="19.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesInvoiceItemToDiscount" Width="1.5" PointX="21.5" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesInvoiceItemToTax" Width="1.5" PointX="21.5" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesInvoicePayment" Width="1.5" PointX="24.75" PointY="52.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesInvoiceToDiscount" Width="1.5" PointX="11.25" PointY="50.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesInvoicetoExtraCharge" Width="1.5" PointX="46.75" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesInvoiceToLedger" Width="1.5" PointX="11.25" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesInvoiceToReference" Width="1.5" PointX="46.75" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesInvoiceToTax" Width="1.5" PointX="11.25" PointY="53.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesInvoieToRedemption" Width="1.5" PointX="34.75" PointY="52.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesOrder" Width="1.5" PointX="19.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesOrderItem" Width="1.5" PointX="22" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesOrderItemToDiscount" Width="1.5" PointX="24.25" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesOrderItemToTAX" Width="1.5" PointX="24.25" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesOrderToDiscount" Width="1.5" PointX="22" PointY="42.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalesOrderToTax" Width="1.5" PointX="22" PointY="45.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSalutation_tbl" Width="1.5" PointX="36.75" PointY="52.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblSectionMaster" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblStateMaster" Width="1.5" PointX="45.75" PointY="52.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblstatesuburb_Tbl" Width="1.5" PointX="47.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblStatusMaster" Width="1.5" PointX="17.75" PointY="53.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblStockCountingCycleMaster" Width="1.5" PointX="39" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblStockCountingTypeMaster" Width="1.5" PointX="36.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblStockCountingVoucherMaster" Width="1.5" PointX="41.25" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblStockCountingVoucherToItem" Width="1.5" PointX="47.75" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblStockJournal" Width="1.5" PointX="26.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblStockJournalToExpense" Width="1.5" PointX="29" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblStockJournalToItem" Width="1.5" PointX="29" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblStockJournalToPartyToItem" Width="1.5" PointX="29" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblStoreMaster" Width="1.5" PointX="47.75" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblTAXGroupMaster" Width="1.5" PointX="38.75" PointY="53.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblTaxGroupToStateWiseTaxProfile" Width="1.5" PointX="40.75" PointY="53.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblTaxProfileCategoryMaster" Width="1.5" PointX="47.75" PointY="48.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblTaxProfileDetail" Width="1.5" PointX="47.75" PointY="52.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblTaxProfileMaster" Width="1.5" PointX="48.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblTaxTypeMaster" Width="1.5" PointX="48.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblTransportComanyMaster" Width="1.5" PointX="14" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblTransportTypeMaster" Width="1.5" PointX="11.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblUnitConversion" Width="1.5" PointX="48.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblUnitMaster" Width="1.5" PointX="48.75" PointY="28.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblUserMaster" Width="1.5" PointX="48.75" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblUserPermission" Width="1.5" PointX="5.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblUser" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblUserToCompany" Width="1.5" PointX="26.75" PointY="54.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblUserTypeMaster" Width="1.5" PointX="48.75" PointY="36.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblWorkOrder" Width="1.5" PointX="48.75" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblWorkOrder_Items" Width="1.5" PointX="49.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tblWorkOrder_OtherCharges" Width="1.5" PointX="13.75" PointY="55.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempCheck" Width="1.5" PointX="49.75" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempClose" Width="1.5" PointX="49.75" PointY="51.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempCreditNote" Width="1.5" PointX="49.75" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempCreditnote311014" Width="1.5" PointX="50.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempCRNote" Width="1.5" PointX="15.75" PointY="56.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TEMPD1" Width="1.5" PointX="50.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempDelete9" Width="1.5" PointX="17.75" PointY="56.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempFinalStock" Width="1.5" PointX="50.75" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempItemList" Width="1.5" PointX="50.75" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempItemNegative" Width="1.5" PointX="32.75" PointY="56.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempLocationWiseTransaction" Width="1.5" PointX="34.75" PointY="56.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempM1" Width="1.5" PointX="50.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempM6Floor" Width="1.5" PointX="36.75" PointY="56.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempMerge1" Width="1.5" PointX="38.75" PointY="56.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempMergeStock1" Width="1.5" PointX="40.75" PointY="56.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempPurchaseIN" Width="1.5" PointX="45.75" PointY="56.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempPurchaseInvoice_N" Width="1.5" PointX="51.75" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempSalesInvoice" Width="1.5" PointX="22.75" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempSalesInvoice3112014" Width="1.5" PointX="24.75" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempStock" Width="1.5" PointX="26.75" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempStock1" Width="1.5" PointX="51.75" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempStock3" Width="1.5" PointX="42.75" PointY="57.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tempStock4" Width="1.5" PointX="51.75" PointY="51.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempStock5" Width="1.5" PointX="52.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempStock6" Width="1.5" PointX="0.75" PointY="58.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.tempStock7" Width="1.5" PointX="12.75" PointY="58.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempStockCI" Width="1.5" PointX="52.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempStockCountingItem" Width="1.5" PointX="19.75" PointY="58.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempStockCountingVoucher" Width="1.5" PointX="52.75" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempStockCountingVoucherMaster" Width="1.5" PointX="52.75" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempStockj" Width="1.5" PointX="52.75" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TEMPStockJVItem" Width="1.5" PointX="53.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempStockOrg" Width="1.5" PointX="53.75" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempStockV" Width="1.5" PointX="53.75" PointY="40.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TemptblStockCountingVoucherToItem" Width="1.5" PointX="53.75" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempTransaction31Mar" Width="1.5" PointX="53.75" PointY="48.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.TempTransactionItem" Width="1.5" PointX="47.75" PointY="59.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PMSModel.VatUpdateFromToycra" Width="1.5" PointX="49.75" PointY="59.125" IsExpanded="true" />
+        <AssociationConnector Association="PMSModel.FK__aspnet_Me__Appli__259C7031" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK__aspnet_Pa__Appli__5ED4ED8D" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK__aspnet_Ro__Appli__47F18835" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK__aspnet_Us__Appli__11957784" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK__aspnet_Me__UserI__2690946A" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK__aspnet_Pe__PathI__66760F55" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK__aspnet_Pe__PathI__6C2EE8AB" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK__aspnet_Pe__UserI__6D230CE4" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK__aspnet_Pr__UserI__3C7FD589" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tb_GiftVoucherTermsandConditions_tb_TermsMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblParty_Master_tblCompanyGroups" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblContraVoucherLedgers_tblContraVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblContraVoucherLedgers_tblParty_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblCrditNoteToLedger_tblParty_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblCrditNoteToLedgerItems_tblCrditNoteToLedger" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblCreditNoteToDiscount_tblCrditNoteToLedger" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblCreditNoteToTax_tblCrditNoteToLedger" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblCreditItemsToDiscount_tblCrditNoteToLedgerItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblCreditNoteItemsToTax_tblCrditNoteToLedgerItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblCrditNote_tblCustomerMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblCrditNote_tblParty_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblCreditNoteItemDiscount_tblCreditNoteItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblDebitNoteToLedger_tblDebitNote" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblDebitNoteItemsToDiscount_tblDebitNoteToLedgerItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblDebitNoteItemsToTax_tblDebitNoteToLedgerItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblDebitNoteToDiscount_tblDebitNoteToLedger" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblDebitNoteToLedger_tblParty_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblDebitNoteToLedgerItems_tblDebitNoteToLedger" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblDebitNoteToTax_tblDebitNoteToLedger" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblSalesInvoiceItemToDiscount_tblDiscountTypeMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblInwordItems_tblInword" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblInwordToDiscount_tblInword" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblInwordToPORef_tblInword" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblInwordToTAX_tblInword" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblInwordItemToDiscount_tblInwordItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblInwordItemToTAX_tblInwordItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblItemMaster_tblItemCategoryMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblItemToOtherExpenses_tblItemMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblItemToSubItem_tblItemMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblItemWiseUnitConversion_tblItemMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblSalesInvoiceItems_tblItemMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblJournalVoucherToDiscount_tblJournalVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblJournalVoucherToTax_tblJournalVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblJVToLedger_tblJournalVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblJournalVoucherItemsToDiscount_tblJournalVoucherToLedgerItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblJournalVoucherItemsToTax_tblJournalVoucherToLedgerItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblJournalVoucherToLedgerItems_tblJVToLedger" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblSectionMaster_tblModuleMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblOutwordItems_tblOutword" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblOutwordToDiscount_tblOutword" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblOutwordToTAX_tblOutword" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblOutwordItemToDiscount_tblOutwordItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblOutwordItemToTAX_tblOutwordItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPaymentVoucherToLedger_tblParty_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPurchaseInvoiceToLedger_tblParty_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblRecieptVoucherToLeger_tblParty_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblSalesInvoiceToLedger_tblParty_Master" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPaymentToRefence_tblPaymentVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPaymentVoucherToLedger_tblPaymentVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPurchaseInvoiceItems_tblPurchaseInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPurchaseInvoiceToDiscount_tblPurchaseInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPurchaseInvoiceToInword_tblPurchaseInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPurchaseInvoiceToLedger_tblPurchaseInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPurchaseInvoiceToPoNo_tblPurchaseInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPurchaseInvoiceToTax_tblPurchaseInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPurchaseInvoiceItemToDiscount_tblPurchaseInvoiceItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPurchaseInvoiceItemToTax_tblPurchaseInvoiceItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPurchaseOrderDiscount_tblPurchaseOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPurchaseOrderItems_tblPurchaseOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPurchaseOrderToTax_tblPurchaseOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPurchaseOrderItemTax_tblPurchaseOrderItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblPurchaseOrderItemToDiscount_tblPurchaseOrderItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblQuotationItems_tblQuotation" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblQuotToDiscount_tblQuotation" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblQuotToTAX_tblQuotation" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblQuotItemsToDiscount_tblQuotationItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblQuotItemsToTAX_tblQuotationItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblStockCountingVoucherMaster_tblRackMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblReceiptToRefence_tblRecieptVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblRecieptVoucherToLeger_tblRecieptVoucher" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblRejectionInItems_tblRejectionIn" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblRejectionOutItems_tblRejectionOut" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblRejectionOutItemToDiscount_tblRejectionOutItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblSalesInvoiceItems_tblSalesInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblSalesInvoiceToDiscount_tblSalesInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblSalesInvoiceToLedger_tblSalesInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblSalesInvoiceToTax_tblSalesInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblSalesInvoiceItemToDiscount_tblSalesInvoiceItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblSalesInvoiceItemToTax_tblSalesInvoiceItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblSalesOrderItems_tblSalesOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblSalesOrderToDiscount_tblSalesOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblSalesOrderToTax_tblSalesOrder" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblSalesOrderItemToDiscount_tblSalesOrderItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblSalesOrderItemToTAX_tblSalesOrderItems" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblUserPermissions_tblSectionMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblStockCountingCycleMaster_tblStockCountingTypeMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblStockCountingVoucherMaster_tblStockCountingCycleMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblStockJournalToExpense_tblStockJournal" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblStockJournalToItems_tblStockJournal" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblStockJournalToPartyToItems_tblStockJournal" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblTransportComanyMaster_tblTransportTypeMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.FK_tblUserPermissions_tblUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="PMSModel.aspnet_UsersInRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

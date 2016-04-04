@@ -1,0 +1,122 @@
+﻿<div class="row">
+    <!-- Header and Nav -->
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <!-- Title Area -->
+            <li class="name">
+                <h1>
+                    <a href="#">Site Logo
+                    </a>
+                </h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+        @if(User.Identity.IsAuthenticated){
+            <section class="top-bar-section">
+                <!-- Left Nav Section -->
+
+                <ul class="left">
+                    <li class="divider"></li>
+                    <li class="has-dropdown hide-for-large-up">
+                        <a href="#">Masters</a>
+                        <ul class="dropdown">
+                            <li><a class="active" href="#">Party Master</a></li>
+                            <li><a class="" href="#">Party Master List</a></li>
+                            <li><a href="#">Item Master</a></li>
+                            <li><a href="#">Item Master List</a></li>
+                            <li><a href="#">Item Category Master</a></li>
+                            <li><a href="#">Item Category Master List</a></li>
+                            <li class="divider"></li>
+                            <li><a class="active" href="#">Brand Master</a></li>
+                            <li><a class="" href="#">Brand Master List</a></li>
+                            <li><a href="#">Godown Master</a></li>
+                            <li><a href="#">Godown Master List</a></li>
+                            <li><a href="#">Rack Detail</a></li>
+                            <li><a href="#">Rack Detail List</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">See all ?</a></li>
+                        </ul>
+                    </li>
+                    <li class="show-for-large-up ">
+                        <a class="toggle-nav img-large pointer megadroplinkdown" id="masters" style="background: none;">Masters</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="show-for-large-up ">
+                        <a class="toggle-nav img-large pointer megadroplinkdown" id="sales" style="background: none;">Sales</a>
+                    </li>
+                </ul>
+                <ul class="right">
+                    <li><a href="#">Welcome @User.Identity.Name</a></li>
+                    <li class="divider"></li>
+                    <li>@Html.ActionLink("LogOut","LogOff","Account")</li>
+                </ul>
+            </section>
+       }
+        
+    </nav>
+    <div id="megaDrop_masters" class="container large-12 columns megadrop">
+        <div class="large-3 columns">
+            <ul>
+                <li><a class="active" href="#">Party Master</a></li>
+                <li><a class="" href="#">Party Master List</a></li>
+                <li><a href="#">Item Master</a></li>
+                <li><a href="#">Item Master List</a></li>
+                <li><a href="#">Item Category Master</a></li>
+                <li><a href="#">Item Category Master List</a></li>
+            </ul>
+        </div>
+        <div class="large-3 columns">
+            <ul>
+                <li><a class="active" href="#">Brand Master</a></li>
+                <li><a class="" href="#">Brand Master List</a></li>
+                <li><a href="#">Godown Master</a></li>
+                <li><a href="#">Godown Master List</a></li>
+                <li><a href="#">Rack Detail</a></li>
+                <li><a href="#">Rack Detail List</a></li>
+            </ul>
+        </div>
+        <div class="large-3 columns">
+            <ul>
+                <li><a class="active" href="#">Party Master</a></li>
+                <li><a class="" href="#">Party Master List</a></li>
+                <li><a href="#">Item Master</a></li>
+                <li><a href="#">Item Master List</a></li>
+                <li><a href="#">Item Category Master</a></li>
+                <li><a href="#">Item Category Master List</a></li>
+            </ul>
+        </div>
+        <div class="large-3 columns">
+            <ul>
+                <li><a class="active" href="#">Brand Master</a></li>
+                <li><a class="" href="#">Brand Master List</a></li>
+                <li><a href="#">Godown Master</a></li>
+                <li><a href="#">Godown Master List</a></li>
+                <li><a href="#">Rack Detail</a></li>
+                <li><a href="#">Rack Detail List</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="megaDrop_sales" class="container large-12 columns megadrop">
+        <div class="large-6 columns">
+            <ul>
+                <li><a class="active" href="#">Party Master</a></li>
+                <li><a class="" href="#">Party Master List</a></li>
+                <li><a href="#">Item Master</a></li>
+                <li><a href="#">Item Master List</a></li>
+                <li><a href="#">Item Category Master</a></li>
+                <li><a href="#">Item Category Master List</a></li>
+            </ul>
+        </div>
+        <div class="large-6 columns">
+            <ul>
+                <li><a class="active" href="#">Brand Master</a></li>
+                <li><a class="" href="#">Brand Master List</a></li>
+                <li><a href="#">Godown Master</a></li>
+                <li><a href="#">Godown Master List</a></li>
+                <li><a href="#">Rack Detail</a></li>
+                <li><a href="#">Rack Detail List</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

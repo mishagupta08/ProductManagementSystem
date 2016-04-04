@@ -1,0 +1,9 @@
+E:\Workarea\ProductManagementSystem\ProductManagementSystemData\bin\Debug\ProductManagementSystemData.dll.config
+E:\Workarea\ProductManagementSystem\ProductManagementSystemData\bin\Debug\ProductManagementSystemData.dll
+E:\Workarea\ProductManagementSystem\ProductManagementSystemData\bin\Debug\ProductManagementSystemData.pdb
+E:\Workarea\ProductManagementSystem\ProductManagementSystemData\bin\Debug\EntityFramework.dll
+E:\Workarea\ProductManagementSystem\ProductManagementSystemData\bin\Debug\System.Web.Http.Common.dll
+E:\Workarea\ProductManagementSystem\ProductManagementSystemData\bin\Debug\EntityFramework.xml
+E:\Workarea\ProductManagementSystem\ProductManagementSystemData\bin\Debug\System.Web.Http.Common.xml
+E:\Workarea\ProductManagementSystem\ProductManagementSystemData\obj\Debug\ProductManagementSystemData.dll
+E:\Workarea\ProductManagementSystem\ProductManagementSystemData\obj\Debug\ProductManagementSystemData.pdb

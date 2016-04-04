@@ -1,0 +1,83 @@
+﻿@model ProductManagementSystem.Models.LoginModel
+
+@{
+    ViewBag.Title = "Log in";
+    string ApiUrl = System.Configuration.ConfigurationManager.AppSettings["ApiBaseUrl"];
+}
+
+
+<div class="large-offset-4 large-4 columns form_box" style="margin-top:5%;">
+    
+
+        <h4 class="heading"><span>Login to your account</span><span style="display: none;">New password</span></h4>
+       @* <a href="#" class="right small sl_link">
+            <span>Forgot your password?</span>
+            <span style="display: none">Back to login form</span>
+        </a>*@
+    <div class="large-12 columns">
+        <span>@if(ViewBag.ErrorMessage!=null){@ViewBag.ErrorMessage}</span>
+    </div>
+        <div class="large-12 columns">            
+                @using (Html.BeginForm("Login", "Account", new { returnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form", @class = "nice form_logon", id = "l_form", data_abide = "" }))
+                {
+                <div class="large-12 columns">
+                    <label for="username" style="text-align: left;">Username</label>
+                    @Html.TextBoxFor(m => m.UserName, new { id = "username", @required = "required", @tabindex = "1", @type = "email" })
+                    <small class="error">Valid Email Required</small>
+                </div>
+
+                <div class="large-12 columns">
+                    <label for="password" style="text-align: left;">Password</label>
+                     @Html.PasswordFor(m => m.Password, new { id = "password", @required = "required", @tabindex = "2", @pattern="alpha"})
+                     <small class="error">Valid Password Required</small>
+                </div>
+
+                <div class="large-12 columns">
+                    <label for="remember" class="left" style="text-align: left;">
+                        <input type="checkbox" id="remember">
+                        Remember me</label>                    
+                    <input type="submit" id="loginlink" class="button small radius right" tabindex="3" value="LOG IN"/><br />
+
+                </div>
+                    <div class="large-12 columns">
+                    <label for="remember" class="left" style="text-align: left;">
+                       @* <a href="~/Account/Register" id="register">Not a User?</a>*@</label>                                        
+                </div>
+                     <div class="large-12 columns">
+                    &nbsp;
+                </div>
+                }
+           
+        </div>
+       @* <div class="large-12 columns l_pane" style="display: none">
+            <form action="#" method="post" class="nice" id="rp_form">
+                <div class="large-12 columns">
+                    <p class="sepH_b">Please enter your email address. You will receive a link to create a new password via email.</p>
+                    <div class="large-12 columns">
+                        <label for="upname" style="text-align: left;">E-mail:</label>
+                        <input type="text" id="upname" name="upname" class="oversize expand input-text" />
+                    </div>
+                </div>
+                <div class="large-12 columns">
+                    <input type="submit" class="button small radius right black" value="Get new password" />
+                </div>
+            </form>
+        </div>*@
+    </div>
+
+
+@*<script>
+
+    $(".sl_link").click(function (event) {
+        $('.l_pane').slideToggle('normal').toggleClass('dn');
+        $('.sl_link,.lb_ribbon').children('span').toggle();
+        event.preventDefault();
+    });
+    </script>*@
+
+
+
+
+
+
+

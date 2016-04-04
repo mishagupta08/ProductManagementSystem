@@ -1,0 +1,111 @@
+﻿.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+    border-right: solid 1px #B5ABAB;
+    border-left: solid 1px #B5ABAB;
+}
+
+.login-div {
+    border: 1px solid grey;
+    padding: 4%;
+    border-radius: 5px;
+    float: left !important;
+}
+
+body {
+    min-height: 600px;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #1F0C6B;
+    background: #1F0C6B !important;
+}
+
+.top-bar {
+    margin-bottom: 1em;
+}
+
+.menu a, .menu button, .menu input {
+    color: white;
+    font-size: 1.2em;
+}
+
+.top-bar-section li a:not(.button) {
+    padding: 0 15px;
+    line-height: 45px;
+    background: #1F0C6B;
+}
+
+.row {
+    max-width: 100%;
+}
+
+html {
+    background-color: #abd7f1;
+    padding: 1%;
+}
+
+.topbar_row {
+    background-color: #abd7f1;
+}
+
+.megadrop {
+    display: none;
+    margin-top: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    overflow: hidden;
+    background: #1F0C6B;   
+}
+
+.megadrop ul {
+   list-style:none;
+}
+
+.megadrop li {
+   padding:2px;
+   border-bottom:1px solid rgba(248, 248, 248, 0.4);
+}
+
+ .megadrop li a {
+   color : white;
+}
+
+.megadroplinkdown {
+    background: url('Images/menu_down.png') no-repeat !important;
+    background-position: 97% 54% !important;
+}
+
+.megadroplinkup {
+    background: url('Images/menu_up.png') no-repeat !important;
+    background-position: 97% 54% !important;
+}
+
+.content_row {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.form_box {
+    position: relative;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+}
+
+.heading {
+    color: #1F0C6B;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+small.other_error {
+    display: none;
+    padding: 0.375em 0.25em;
+    margin-top: -1.3125em;
+    margin-bottom: 1em;
+    font-size: 0.75em;
+    font-weight: bold;
+    background: #c60f13;
+    color: white;
+}

@@ -1,0 +1,159 @@
+﻿@{
+    ViewBag.Title = "Home";
+    string ApiUrl = System.Configuration.ConfigurationManager.AppSettings["ApiBaseUrl"];
+}
+<style type="text/css">
+    .content_row {
+        padding-top:2% !important;
+    }
+</style>
+
+<script>
+
+    $(document).ready(function () {
+        getList();
+    });
+
+    function getList() {
+        $.ajax({
+            url: '@ApiUrl' + "/getList",
+            type: 'POST',
+            data: userDetails,
+            success: function (response) {
+                alert("inserted successfully");
+            },
+            error: function (response) {
+                alert("There was an error with the request" + response);
+            }
+        });
+    }
+
+</script>
+
+<div class="large-12 columns">
+<center><h3>Store 1</h3></center>
+<hr />
+    </div>
+    <div class="large-12 columns form_box">
+      
+                <div class="box_c">
+                    <div class="box_c_heading cf box_actions">
+                        <div class="box_c_ico">
+                            <img src="~/Images/16-Abacus.png" alt="" style="margin-bottom: 20%;"/>
+                        </div>
+                        <p>Statistics</p>
+
+                    </div>
+                    <div class="box_c_content">
+                        <p class="inner_heading sepH_c">Latest Info</p>
+                        <ul class="navlist overview_list">
+                            <li>
+                                <a href="#">
+
+                                    <img src="~/Images/blank.gif" style="background-image: url(../Images/bill.png)" alt="" />
+                                    @*<span class="ov_nb">10201</span>*@
+                                    <span class="ov_text">Inventory</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="~/Images/blank.gif" style="background-image: url(../Images/account.png)" alt="" />
+                                    @*<span class="ov_nb">231</span>*@
+                                    <span class="ov_text">Account</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="~/Images/blank.gif" style="background-image: url(../Images/report.png)" alt="" />
+                                    @*<span class="ov_nb">32</span>*@
+                                    <span class="ov_text">Reports</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="large-12 columns form_box">
+                <div class="box_c">
+                    <div class="box_c_heading cf">
+                        <div class="box_c_ico">
+                            <img src="~/Images/16-Graph.png" alt="" style="margin-bottom: 20%;"/>
+                        </div>
+                        <p>Notifications</p>
+                    </div>
+                    <div class="box_c_content">
+                        <div class="inner_block">
+                            <div class="h_scrollable sepH_a sw_resizedEL" style="height: 280px">
+                                <div class="items"> 
+                                   <div id="gridContent">
+                                       <table style="border: 1px solid black;width: 100%;">
+                                           <tr style="background-color: lightgray;">
+                                               <th>Item Name</th>
+                                               <th>Date</th>
+                                               <th>Item Code</th>
+                                               <th>Brand</th>
+                                               <th>Stock</th>
+                                               <th>Invoice ID</th>
+                                           </tr>
+                                           <tr>
+                                               <td>
+                                                   &nbsp;
+                                               </td>
+                                                <td>
+                                                   &nbsp;
+                                               </td>
+                                                <td>
+                                                   &nbsp;
+                                               </td>
+                                                <td>
+                                                   &nbsp;
+                                               </td>
+                                                <td>
+                                                   &nbsp;
+                                               </td>
+                                                <td>
+                                                   &nbsp;
+                                               </td>
+                                           </tr>
+                                       </table>
+       @* @gd.GetHtml(tableStyle: "table",
+                headerStyle: "head",
+                alternatingRowStyle: "altRow",
+                selectedRowStyle: "selectRow",
+                columns: gd.Columns(
+        gd.Column(columnName: "ItemName", header: "ItemName"),
+        gd.Column(columnName: "Date", header: "Date",format: (item) => String.Format("{0:dd MMM yyyy}", item.Date)),
+        gd.Column(columnName: "ItemCode", header: "ItemCode"),
+        gd.Column(columnName: "BrandName", header: "Brand"),
+        gd.Column(columnName: "Stock", header: "Stock"),
+        gd.Column(columnName: "SalesInvoiceId", header: "InvoiceID")     
+        //gd.Column(format: (item) => Html.ActionLink("Edit", "Edit", new { id = item.SalesOrderID })),
+       // gd.Column(format: (item) => Html.ActionLink("Delete", "Delete", new { id = item.SalesOrderID }, new { onclick = "return confirm ('Are You Sure You Want to Delete this Item?');" }))
+
+      ))*@
+    </div>
+                                   @* <div class="left">
+                                        <div id="ds_plot1" title="" style="height: 280px; margin: 0 auto" class="chart_flw"></div>
+                                    </div>
+                                    <div class="left"><h3><font color="red">@ViewBag.Message</font></h3>
+                                        <h3><font color="red">@ViewBag.Message1</font></h3>
+                                        <div id="ds_plot2" title="" style="height: 280px; margin: 0 auto" class="chart_flw"></div>
+                                    </div>*@
+                                </div>
+                            </div>
+                           @* <div class="row">
+                                <div class="four columns">
+                                    <a class="gh_button pill small image_from_chart" style="display: none; margin-top: 10px" href="#">Create image from chart</a>
+                                </div>
+                                <div class="eight columns">
+                                    <!--	<ul class="pagination h_navi right sepV_a">
+										<li class="current"><a href="javascript:void(0)">Unique visitors</a></li>
+										<li><a href="javascript:void(0)">Another chart</a></li>
+									</ul>-->
+                                </div>
+                            </div>*@
+                        </div>
+                    </div>
+                </div>
+           </div>
+    
